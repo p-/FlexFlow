@@ -63,5 +63,5 @@ jobs:
             ./docker/publish.sh "flexflow-environment-${FF_GPU_BACKEND}"
             ./docker/publish.sh "flexflow-${FF_GPU_BACKEND}"
           else
-            echo "No need to update Docker containers in ghrc.io registry at this time."
+            echo "No need to update Docker containers in ghcr.io registry at this time."
           fi
